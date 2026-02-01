@@ -1,6 +1,6 @@
 # Mikhail's Atmospheric Workspace
 
-A highly optimized, aesthetically driven personal portfolio and digital workspace built with **React**, **Vite**, and **Tailwind CSS**. Designed with an "Interstellar" & "Apple Vision Pro" inspired glassmorphism aesthetic, featuring a unified design language, responsive layout, and performance-first architecture.
+A highly optimized, aesthetically driven personal portfolio and digital workspace built with **React**, **Vite**, and **Tailwind CSS**. Designed with an atmospheric glassmorphism aesthetic, featuring a unified design language, responsive layout, and performance-first architecture.
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
