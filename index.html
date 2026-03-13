@@ -5,27 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark" />
     <meta name="darkreader-lock" content="already-dark" />
+    
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
-    <title>Mikhail | Digital Workspace</title>
-    <meta name="description" content="Personal portfolio and digital workspace. Atmospheric design with a modern glassmorphism aesthetic." />
     
-    <!-- Social Media Preview Tags -->
+    <title>Mikhail | Software Developer & IT Educator</title>
+    
+    <meta name="description" content="Portfolio of Mikhail Martynenko. CCode engine developer, Python/Go/Lua programmer, and IT tutor at Coddy. Михаил Мартыненко — разработчик движка CCode, программист и преподаватель IT." />
+    <meta name="keywords" content="Mikhail Martynenko, Михаил Мартыненко, Mikhail Studio, CCode engine, Python teacher, Go developer, разработка игр, обучение программированию, преподаватель Python, IT tutor, Coddy, self-hosting, game engine development" />
+    <meta name="author" content="Mikhail Martynenko" />
+
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://me.mikhailstudio.ru/" />
     <meta property="og:title" content="Mikhail Martynenko | Developer & Educator" />
-    <meta property="og:description" content="Personal portfolio and digital workspace. Atmospheric design with a modern glassmorphism aesthetic." />
-    <meta property="og:image" content="/mikhail.jpg" />
+    <meta property="og:description" content="Developing CCode engine, teaching programming, and managing self-hosted systems. Разработка движка CCode и преподавание программирования." />
+    <meta property="og:image" content="https://me.mikhailstudio.ru/mikhail.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mikhail Martynenko | Developer & Educator" />
-    <meta name="twitter:description" content="Personal portfolio and digital workspace. Atmospheric design with a modern glassmorphism aesthetic." />
-    <meta name="twitter:image" content="/mikhail.jpg" />
+    <meta name="twitter:description" content="Professional portfolio and digital workspace focused on software engineering and IT education." />
+    <meta name="twitter:image" content="https://me.mikhailstudio.ru/mikhail.jpg" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mikhail Martynenko",
+      "alternateName": ["Михаил Мартыненко", "Mikhail Studio"],
+      "url": "https://me.mikhailstudio.ru",
+      "image": "https://me.mikhailstudio.ru/mikhail.jpg",
+      "jobTitle": "Software Developer & IT Tutor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Coddy Online School"
+      },
+      "description": "Developer of CCode mobile game engine. Proficient in Python, Go, and Lua. IT educator specializing in pygame, Minecraft programming, and system administration.",
+      "knowsAbout": [
+        "Python Programming",
+        "Go Development",
+        "Lua",
+        "Game Engine Architecture",
+        "Server Administration",
+        "Self-hosting",
+        "IT Education",
+        "Minecraft Programming"
+      ],
+      "sameAs": [
+        "https://github.com/mikhailstudio",
+        "https://mikhailstudio.ru"
+      ]
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
     <script>
       tailwind.config = {
         theme: {
@@ -64,6 +102,7 @@
         },
       }
     </script>
+
     <style>
       body {
         background: linear-gradient(to bottom, #0B0E14, #151921);
@@ -96,21 +135,22 @@
         perspective: 1000px;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
-    "react": "https://esm.sh/react@^19.2.4",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+        "react": "https://esm.sh/react@^19.2.4",
+        "react/": "https://esm.sh/react@^19.2.4/"
+      }
+    }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
